@@ -1,0 +1,40 @@
+.mishen {
+  position: relative;
+  top: 10px;
+  left: 24px;
+  margin: 8px;
+  padding: 8px;
+  height: 154px;
+  width: 154px;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+}
+
+.mishen-black-mini {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  padding: 8px;
+  border-radius: 50%;
+  border: solid 24px rgb(255, 255, 255);
+  background-color: #000000;
+}
+
+.mishen-black-hor {
+  background-color: #000000;
+  border-radius: 10%;
+  position: absolute;
+  width: 180px;
+  height: 7px;
+}
+
+.mishen-black-ver {
+  background-color: #000000;
+  border-radius: 10%;
+  position: absolute;
+  width: 7px;
+  height: 180px;
+}

@@ -1,0 +1,38 @@
+.kvadrat {
+  position: absolute;
+  margin: 8px;
+  padding: 8px;
+  height: 78px;
+  width: 78px;
+  display: flex;
+  border-radius: 10%;
+  align-items: center;
+  justify-content: center;
+}
+
+.kvadrat1 {
+  background-color: #f1b58471;
+}
+
+.kvadrat2 {
+  top: 48px;
+  left: 50px;
+  background-color: #c99a9976;
+}
+
+.fon {
+  margin: 8px;
+  padding: 8px;
+  height: 150px;
+  width: 160px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+}
+
+.kvadrat11 {
+  margin: 8px;
+  padding: 8px;
+  height: 70px;
+  width: 70px;
+}

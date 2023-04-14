@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8" />
+  <title>dva</title> <!-- dva -->
+  <link rel="stylesheet" href="myst.css">
+  <style>
+    .table {
+      width: 500px;
+      height: 250px;
+      border: 1px black double;
+    }
+
+    .first-row {
+      background-color: #587246;
+    }
+
+    .second-row {
+      background-color: #425e17;
+    }
+
+    .third-row {
+      background-color: #434b1b;
+    }
+
+    #myform {
+      user-select: none;
+      color: #99FFFF;
+      border: 1;
+      padding: 8px;
+      width: 400px;
+    }
+
+    .list1 {
+      color: #3f1212;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="background">
+    <div class="main container">
+      <table border="1" cellpadding="10" cols="6" border-collapse="1" class="table">
+        <tr class="first-row">
+          <td />
+          <td />
+          <td rowspan="3" />
+          <td rowspan="3" />
+          <td />
+          <td />
+        </tr>
+        <tr class="second-row">
+          <td colspan="2" />
+          <td colspan="2" />
+        </tr>
+        <tr class="third-row">
+          <td />
+          <td />
+          <td />
+          <td />
+        </tr>
+      </table>
+      <i>kursiv</i>
+      <p><span class="main container1">my block1</span></p>
+      <div>my block</div>
+      <ol class="list1">
+        <li>тэг ol - пронумерованный список, li - строчки списка</li>
+        <li>rowspan="3"- одна ячейка занимает три ячейки вниз</li>
+        <li>colspan="2"- одна ячейка занимает две ячейки вправо</li>
+        <ul type="disc">
+          <li>тэг ul - список с точками</li>
+          <li>li - строчки списка</li>
+        </ul>
+        <li>prost</li>
+      </ol>
+      <form id="myform">
+        <p><textarea rows="2" cols="40">text</textarea></p>
+        <p><select name="select">
+            <option value="s1">selected после vale строчка кт будет первая при обновлении</option>
+            <option value="s2" selected>тут тоже самое</option>
+            <option value="s3">только без multiple в select</option>
+            <option value="s3"></option>
+          </select>
+        <p><input type="password" maxlength="25" size="40" name="password" value="1111"></p>
+        <input type="radio" id="contactChoice1" name="contact" value="список с радио">
+        <label for="contactChoice1">список с радио</label>
+
+        <br /><input type="radio" id="contactChoice2" name="contact" value="штоп тык">
+        <label for="contactChoice2">штоп тык</label>
+
+        <br /><input type="radio" id="contactChoice3" name="contact" value="и выбрал" checked>
+        <label for="contactChoice3">и выбрал</label>
+        <div>
+          <input type="checkbox" id="cd1" name="city" value="Омск">
+          <label for="cb1">Омск</label>
+        </div>
+        <div>
+          <input type="checkbox" id="cd2" name="Новосибирск">
+          <label for="cb2">Новосибирск</label>
+        </div>
+        <div>
+          <input type="checkbox" id="cd3" name="Томск">
+          <label for="cb3">Томск</label>
+        </div>
+
+        <p>date: <input type="date" name="calendar"></p>
+        <p>time: <input type="time" name="time"></p>
+        <p><input type="file" name="file"></p>
+        <span>
+          <button class="submit" type="submit">Отправить</button>
+          <input class="reset" type="reset" value="Сбросить" name="reset">
+        </span>
+      </form>
+      <p><a href="./index.html">К первой части</a></p>
+      <p><a href="./picture.html">задание с картинками</a></p>
+
+      <button class="super-button">
+        Супер кнопка
+      </button>
+    </div>
+  </main>
+</body>
+
+</html>
