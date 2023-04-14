@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8" />
+  <title>craft</title>
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+  <main>
+    <div class="background p-20">
+      <p class="t-center">ЖУРНАЛ ОЦЕНОК</p>
+    </div>
+    <table id="grades-table" class="border ">
+      <thead class="border">
+        <tr class="bg-y border">
+          <td class="t-center">Ученик</td>
+          <td class="t-center">Класс</td>
+          <td class="t-center">Информатика</td>
+          <td class="t-center">Физика</td>
+          <td class="t-center">Математика</td>
+          <td class="t-center">Литература</td>
+          <td class="t-center">Музыка</td>
+          <td class="t-center">Действия</td>
+        </tr>
+      </thead>
+      <tbody class="bg-y1" id="tbody"></tbody>
+    </table>
+    <span id="add-row">
+      <div class="input0">
+        <label class="label">
+          Имя:
+        </label>
+        <input name="name" class="bg-y border input">
+      </div>
+      <div class="input1">
+        <label class="label">
+          Класс:
+        </label>
+        <input name="className" class="bg-y border input">
+      </div>
+      <div class="input1">
+        <label class="label">
+          Информатика:
+        </label>
+        <input name="informatics" class="bg-y border input">
+      </div>
+      <div class="input1">
+        <label class="label">
+          Физика:
+        </label>
+        <input name="physics" class="bg-y border input">
+      </div>
+      <div class="input1">
+        <label class="label">
+          Математика:
+        </label>
+        <input name="mathemathics" class="bg-y border input">
+      </div>
+      <div class="input1">
+        <label class="label">
+          Литература:
+        </label>
+        <input name="literature" class="bg-y border input">
+      </div>
+      <div class="input1">
+        <label class="label">
+          Музыка:
+        </label>
+        <input name="music" class="bg-y border input">
+      </div>
+      <button id="add-row-button" class="first-row">
+        Добавить
+      </button>
+    </span>
+    <script src="./js/index.js"></script>
+  </main>
+</body>
+
+</html>
