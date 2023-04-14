@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8" />
+  <title>адин</title>
+  <link rel="stylesheet" href="myst.css">
+  <style>
+    .block1 {
+      width: 150px;
+      background-color: aqua;
+      padding: 5px;
+      border: solid 1px black;
+      float: left;
+      position: relative;
+      top: -11px;
+      left: 400px;
+    }
+
+    .letter {
+      color: blue;
+      font-size: 210%;
+      position: relative;
+      top: 100;
+      left: 10;
+    }
+
+    figure {
+      background: #5f6a72;
+      /* Цвет фона */
+      padding: 10px;
+      /* Поля вокруг */
+      display: block;
+      /* Блочный элемент */
+      width: 150px;
+      /* Ширина */
+      float: left;
+      /* Блоки выстраиваются по горизонтали */
+      margin: 0 10px 10px 0;
+      /* Отступы */
+      text-align: center;
+      /* Выравнивание по центру */
+    }
+  </style>
+</head>
+
+<body>
+  <main class="background">
+    <div class="main">
+      <figure>
+        <p>><img src="" alt="kartinka"></p>
+        <figcaption>podpis</figcaption>
+      </figure>
+      i use these tags:
+      <p> р - параграф, есть отступ до и после </p>
+      <p> br indent one line отступ во всю строку</p>
+      <br /> br - нельзя поместить контент, пишется с новой строчки - отступ
+      <br /> what (перед этой строчкой indent one line)
+      <p> <b>bold font</b></p>
+      <p><i> italics here</i></p>
+      <p>line (lower)</p>
+      <hr>
+      <div class="block1">
+        <p> div - block</p>Mikhail konfetka.
+      </div>
+      <p><span class="letter">span </span>- highlighting something</p>
+      <p>
+      <h1> main text </h1>
+      </p>
+      <p>
+      <h6>not main text </h6>
+      </p>
+      <p><u> u - underscore</u></p>
+      <p> sub this <sub>lowercase letters and numbers</sub></p>
+      <p>sup this <sup> small letters and numbers</sup>on top</p>
+      <p> pre - show text as it </p>
+      <pre class="preblock">
+      _____
+     /     \
+    /  _  _ \
+    ____ -____
+    \        / ~~~~
+     ________
+  
+     ༼ つ ಥ_ಥ ༽つ
+     ᕙ(⇀‸↼‶)ᕗ
+     (~˘▾˘)~ (◕‿◕)
+     (｡◕‿‿◕｡)
+     (｡◕‿◕｡)
+     ~(˘▾˘~)
+  
+  
+  ░░░░░░░░░░░░░░░▄▄▄▄▄▄▄▄░░░░░░░░░░░░░░
+  ░▄█▀███▄▄████████████████████▄▄███▀█░
+  ░█░░▀████████████████████████████░░█░
+  ░░█▄░░▀████████████████████████░░░▄▀░
+  ░░░▀█▄▄████▀▀▀░░░░██░░░▀▀▀█████▄▄█▀░░
+  ░░░▄███▀▀░░░░░░░░░██░░░░░░░░░▀███▄░░░
+  ░░▄██▀░░░░░▄▄▄██▄▄██░▄██▄▄▄░░░░░▀██▄░
+  ▄██▀░░░▄▄▄███▄██████████▄███▄▄▄░░░▀█▄
+  ▀██▄▄██████████▀░███▀▀▀█████████▄▄▄█▀
+  ░░▀██████████▀░░░███░░░▀███████████▀░
+  ░░░░▀▀▀██████░░░█████▄░░▀██████▀▀░░░░
+  ░░░░░░░░░▀▀▀▀▄░░█████▀░▄█▀▀▀░░░░░░░░░
+  ░░░░░░░░░░░░░░▀▀▄▄▄▄▄▀▀░░░░░░░░░░░░░░
+  
+    </pre>
+      <P><tt> tt - typeface </tt></P>
+      <p><a href="http://ambient-mixer.com"> a - link(music)</a></p>
+      <p>тут должен был быть тэг <b>img</b> , но у меня чета не вышло его реализовать</p>
+      <p><img src="./3SLeRK5PCnE.jpg" width="500" height="500" alt="popa" /></p>
+      <div>
+        div - блочный эл, кт
+        <div>занимает</div>
+        <div>всю</div>
+        <div>строку</div>
+      </div>
+      <div>
+        span - строчный эл, кт
+        <span>умещается</span>
+        <span>в</span>
+        <span>строку</span>
+      </div>
+      <br />
+      <details>
+        <summary>avtor</summary>
+        Natalya Trofimova
+      </details>
+      <p><a href="./other.html">3 вариант, вторая часть задания</a></p>
+      <!-- ./file === file - текущее местоположение -->
+      <!-- ../file - внешнее местоположение -->
+      <!-- /file - абсолютное местоположение -->
+      <p><a href="mailto:nhjkjkj007@mail.ru">ссылка на почту</a></p>
+      <a href="#top">ссылка на начало</a>
+    </div>
+  </main>
+</body>
+
+</html>

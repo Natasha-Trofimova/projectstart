@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(./background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #31072f;
+  margin: 0;
+}
+
+main {
+  height: 100vh;
+  overflow: auto;
+}
+
+.background {
+  background-color: #aea9c996;
+}
+
+.main {
+  padding: 20px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.border {
+  border: solid 1px black;
+}
+
+.t-c-pink {
+  color: #d47fd0;
+}
+
+.t-center {
+  text-align: center;
+}
+
+.container {
+  color: #20331ab2;
+}
+
+a:link {
+  color: #000000;
+}
+
+a:visited {
+  color: #522746;
+}
+
+a:hover {
+  color: #dcd36a;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+}
+
+textarea:hover {
+  border-color: #008cf0;
+  border-width: 2px;
+}
+
+textarea:focus {
+  border-color: red;
+  border-width: 2px;
+}
+
+textarea,
+input {
+  caret-color: yellowgreen;
+  outline: none;
+}
+
+ul {
+  list-style: url('/rocket.svg');
+}
+
+ol, ul {
+  list-style-position: inside;
+}
+
+li {
+	padding: 2px;
+}
+
+.submit {
+  background-color: #133814; 
+  border: 1px;
+  color: #4CAF50;
+  padding: 10px 30px;
+  font-size: 16px;
+}
+
+.reset {
+  background-color: #3f1212; 
+  cursor: pointer;
+  border: 1px;
+  color: #af4c4c;
+  padding: 10px 30px;
+  font-size: 16px;
+}
+
+.super-button {
+  padding: 16px 20px;
+  font-size: 18px;
+  border: 2px solid limegreen;
+  transition: .2s all;
+  background-color: yellow;
+  color: limegreen;
+}
+
+.super-button:hover {
+  background-color: limegreen;
+  border-color: yellow;
+  color: yellow;
+}
+
+.preblock {
+  background-color: #2c0f2b49;
+  border: 2px solid limegreen;
+  border: 1;
+  padding: 8px;
+  width: 320px;
+}

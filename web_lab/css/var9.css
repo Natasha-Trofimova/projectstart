@@ -1,0 +1,23 @@
+.j-flag1 {
+  position: relative;
+  margin: 8px;
+  padding: 8px;
+  height: 110px;
+  width: 110px;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color: #cc0000;
+}
+
+.j-flag {
+  margin: 8px;
+  padding: 8px;
+  height: 200px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
